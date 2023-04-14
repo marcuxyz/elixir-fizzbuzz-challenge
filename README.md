@@ -1,21 +1,5 @@
 # Fizzbuzz
 
-**TODO: Add description**
+Implementation code
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `fizzbuzz` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:fizzbuzz, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/fizzbuzz>.
-
+![code](https://user-images.githubusercontent.com/9499562/232139152-048dcaca-52b2-4b06-855b-3163ad7897d6.png)
