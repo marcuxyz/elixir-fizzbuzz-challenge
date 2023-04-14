@@ -2,9 +2,8 @@ defmodule Fizzbuzz do
   def run(numbers) do
     numbers
     |> String.split(",")
-    |> Enum.map(fn n -> String.to_integer(n) end)
-    # a função validate poderia ser chamada no map acima
-    |> Enum.map(fn n -> validate(n) end)
+    |> Enum.map(&String.to_integer/1)
+    |> Enum.map(&validate/1)
   end
 
   def validate(number) when rem(number, 3) == 0 and rem(number, 5) == 0, do: :fizzbuzz
